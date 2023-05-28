@@ -1,0 +1,9 @@
+.list-disc {
+    list-style-type: disc;
+    padding-left: 16px;
+  }
+  
+  .list-disc li {
+    margin-bottom: 8px;
+  }
+  
