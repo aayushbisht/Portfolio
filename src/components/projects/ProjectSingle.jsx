@@ -29,11 +29,11 @@ const ProjectSingle = ({ title, category, image, github, deployment }) => {
           </p>
           
             <p className='mt-4'>
-              <a href={github} target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-600 text-black py-2 px-4 rounded-lg">
+              <a href={github} target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-600 text-ternary-dark dark:text-ternary-light py-2 px-4 rounded-lg">
                 GitHub
               </a>
 			  {deployment && (
-              <a href={deployment} target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-600 text-black py-2 px-4 rounded-lg">
+              <a href={deployment} target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-600 text-ternary-dark dark:text-ternary-light py-2 px-4 rounded-lg">
                 Deployment
               </a>
 			            )}

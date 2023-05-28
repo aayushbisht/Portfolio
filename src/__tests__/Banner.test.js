@@ -15,8 +15,7 @@ function setupUserEvent(jsx) {
 
 test('it shows the title in the banner', () => {
 	setup();
-	// We expect that the title 'Hi, Iam Stoman' is in the banner component
-	expect(screen.getByText(/Hi, Iam Stoman/i)).toBeInTheDocument();
+	expect(screen.getByText(/Hi, Iam Aayush/i)).toBeInTheDocument();
 });
 
 test('can download cv when clicked on download cv button', async () => {
@@ -39,7 +38,5 @@ test('can download cv when clicked on download cv button', async () => {
 	// 	() => downloadLink
 	// );
 
-	// expect(downloadLink.download).toEqual('Stoman-Resume.pdf');
-	// expect(downloadLink.href).toEqual('/files/Stoman-Resume.pdf');
 	// expect(downloadLink.click).toHaveBeenCalledTimes(1);
 });
