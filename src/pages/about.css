@@ -5,12 +5,14 @@
   }
   
   .left-column {
-    flex-basis: 50%; /* Adjust the width of the left column as needed */
+    flex-basis: 40%; /* Adjust the width of the left column as needed */
     padding-right: 16px; /* Add spacing between the columns */
+    flex-direction: column;
+    align-items: flex-start;
   }
   
   .right-column {
-    flex-basis: 50%; /* Adjust the width of the right column as needed */
-    padding-left: 16px; /* Add spacing between the columns */
+    flex-basis: 60%; /* Adjust the width of the right column as needed */
+    padding-left: 2px; /* Add spacing between the columns */
   }
   

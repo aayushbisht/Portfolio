@@ -8,19 +8,13 @@ const AboutMeBio = () => {
 
   return (
     <div className="block sm:flex sm:gap-10 mt-10 sm:mt-20">
-      <div className="font-general-regular w-full sm:w-3/4 text-left">
-        <h1>Blockchain</h1>
-		<ul className="list-disc list-inside">
-          <li className="mb-4 text-ternary-dark dark:text-ternary-light text-lg">
-            Bullet point 1
-          </li>
-          <li className="mb-4 text-ternary-dark dark:text-ternary-light text-lg">
-            Bullet point 2
-          </li>
-          <li className="mb-4 text-ternary-dark dark:text-ternary-light text-lg">
-            Bullet point 3
-          </li>
-        </ul>
+      <div className=" w-full sm:w-3/4 text-left font-medium text-sm sm:text-lg">
+          Hello there! My name is Aayush, and I am a full-stack Blockchain Developer who enjoys creating digital solutions to modern world problems.
+          My passion for developing applications that solve real-world problems has led me to dive deep into Blockchain Technology and develop decentralized applications.
+          Throughout my academic journey, I have honed my skills by building various Decentralized Applications and participating in Hackathons.<br /><br />
+          I'm excited about the potential of Blockchain Technology and its ability to revolutionize industries. I am constantly exploring new advancements in the field and actively seeking opportunities to contribute to meaningful projects that leverage the power of decentralization.<br /><br />
+
+Let's connect and collaborate to create innovative solutions together!
       </div>
     </div>
   );
