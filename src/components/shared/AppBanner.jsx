@@ -73,7 +73,10 @@ const AppBanner = () => {
           onClick={handleScrollToNextSection}
           aria-label="Scroll to next section"
         >
-          <FiChevronDown />
+          <FiChevronDown 		style={{
+					height: 35,
+					width: 35,
+					borderRadius: 50,}}/>
         </button>
       
 				</motion.div>

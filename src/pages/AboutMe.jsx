@@ -30,7 +30,7 @@ const About = () => {
     },
   };
   const technologiesLeft = ['React','Solidity', 'Ganache', 'Truffle'];
-  const technologiesRight = ['Tailwind', 'Ethereum', 'IPFS', 'Node'];
+  const technologiesRight = ['Tailwind', 'Ethereum', 'IPFS', 'Node.js'];
 
   return (
     <AboutMeProvider>

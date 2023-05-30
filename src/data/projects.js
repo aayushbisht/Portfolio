@@ -32,7 +32,7 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		title: 'CrptoDrive',
+		title: 'CryptoDrive',
 		category: 'A decentralized file storing drive that enables users to securely store their images over IPFS and share them with other users.',
 		img: [drive1,drive2,drive3],
 		ProjectHeader: {
@@ -46,7 +46,7 @@ export const projectsData = [
 	{
 		id: 3,
 		title: 'MediBloc',
-		category: 'An AI chat application that utilizes the GPT-3 API, provides natural and intuitive conversations with artificial intelligence',
+		category: 'Blockchain-based medical record storage for patients and insurance companies',
 		img: [medi1,medi2,medi3,medi4,medi5,medi1],
 		ProjectHeader: {
 			title: 'Project Management UI - From Context',
