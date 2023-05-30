@@ -40,7 +40,7 @@ export const projectsData = [
 			publishDate: 'Jul 26, 2021',
 			tags: 'UI / Frontend',
 		},
-		github:'https://github.com/aayushbisht/PIXELCHAIN',
+		github:'https://github.com/aayushbisht/CryptoDrive',
 		deployment:'',
 	},
 	{
@@ -53,7 +53,7 @@ export const projectsData = [
 			publishDate: 'Jul 26, 2021',
 			tags: 'UI / Frontend',
 		},
-		github:'https://github.com/aayushbisht/ChatEcho',
+		github:'https://github.com/aayushbisht/MediBloc-v2',
 		deployment:'',
 		
 	},
