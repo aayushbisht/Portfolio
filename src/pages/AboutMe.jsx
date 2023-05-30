@@ -62,14 +62,14 @@ const About = () => {
                   
                   <ul className="list-disc mt-2 ">
                     {technologiesLeft.map((technology) => (
-                      <li key={technology} className="text-gray-700">
+                      <li key={technology} className="text-ternary-dark dark:text-ternary-light">
                         {technology}
                       </li>
                     ))}
                   </ul>
                   <ul className="list-disc mt-2 ">
                     {technologiesRight.map((technology) => (
-                      <li key={technology} className="text-gray-700">
+                      <li key={technology} className="text-ternary-dark dark:text-ternary-light">
                         {technology}
                       </li>
                     ))}

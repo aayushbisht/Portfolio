@@ -37,7 +37,7 @@ const ProjectsGrid = ({ projectss }) => {
       <Zoom>
         <div className="text-center">
           <p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-            Projects portfolio
+            Some Projects I've Built
           </p>
         </div>
       </Zoom>
