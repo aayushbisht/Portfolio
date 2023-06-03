@@ -13,6 +13,12 @@ const socialLinks = [
 		icon: <FiGithub />,
 		url: 'https://github.com/aayushbisht',
 	},
+	{
+		id: 2,
+		icon: <FiLinkedin />,
+		url: 'https://www.linkedin.com/in/aayush-bisht-94a130228/',
+	},
+
 	
 ];
 

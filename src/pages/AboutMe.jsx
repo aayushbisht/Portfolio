@@ -58,7 +58,7 @@ const About = () => {
                     Technologies I know:
                   </h2>
                 
-                <div className="technologies grid grid-cols-2 gap-4 ">
+                <div className="technologies grid grid-cols-2 gap-4 text-sm md:text-xl  ">
                   
                   <ul className="list-disc mt-2 ">
                     {technologiesLeft.map((technology) => (
