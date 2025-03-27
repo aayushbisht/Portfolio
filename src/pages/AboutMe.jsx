@@ -29,8 +29,24 @@ const About = () => {
       preserveAspectRatio: 'xMidYMid slice',
     },
   };
-  const technologiesLeft = ['React','Solidity', 'Ganache', 'Truffle'];
-  const technologiesRight = ['Tailwind', 'Ethereum', 'IPFS', 'Node.js'];
+  const technologiesLeft = ['React.js','Next.js', 'Tailwind', 'Git'];
+  const technologiesRight = ['Express.js', 'Node.js', 'Typescript', 'Github'];
+
+  const experiences = [
+    {
+      company: 'Company A',
+      role: 'Software Engineer',
+      duration: 'Jan 2022 - Present',
+      description: 'Worked on developing scalable web applications using React and Node.js.',
+    },
+    {
+      company: 'Company B',
+      role: 'Frontend Developer',
+      duration: 'Jun 2020 - Dec 2021',
+      description: 'Built and maintained UI components using React and Tailwind.',
+    },
+  ];
+
 
   return (
     <AboutMeProvider>
@@ -67,7 +83,7 @@ const About = () => {
                       </li>
                     ))}
                   </ul>
-                  <ul className="list-disc mt-2 ">
+                  <ul className="list-disc mt-2 ml-1 ">
                     {technologiesRight.map((technology) => (
                       <li key={technology} className="text-ternary-dark dark:text-ternary-light">
                         {technology}

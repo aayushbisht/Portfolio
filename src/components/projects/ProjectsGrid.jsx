@@ -37,12 +37,12 @@ const ProjectsGrid = ({ projectss }) => {
       <Zoom>
         <div className="text-center">
           <p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-            Recent Projects I've Built
+            Projects I've Built
           </p>
         </div>
       </Zoom>
 
-      {/* <div className="mt-10 sm:mt-16">
+      <div className="mt-10 sm:mt-16">
         <h3
           className="font-general-regular 
                         text-center text-secondary-dark
@@ -108,9 +108,9 @@ const ProjectsGrid = ({ projectss }) => {
             />
           </div>
 
-          <ProjectsFilter setSelectProject={setSelectProject} />
+          {/* <ProjectsFilter setSelectProject={setSelectProject} /> */}
         </div>
-      </div> */}
+      </div>
       <Zoom>
          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-12 sm:gap-10"> 
          {selectProject
