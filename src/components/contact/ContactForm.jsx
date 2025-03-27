@@ -6,7 +6,7 @@ import env from './env.js';
 
 
 const ContactForm = () => {
-  const { REACT_APP_SERVICE_ID, REACT_APP_EMAIL_TEMPLATE_ID, REACT_APP_EMAIL_PUBLIC_KEY } = env;
+  // const { REACT_APP_SERVICE_ID, REACT_APP_EMAIL_TEMPLATE_ID, REACT_APP_EMAIL_PUBLIC_KEY } = env;
   const nameInputRef = useRef();
   const emailInputRef = useRef();
   const subjectInputRef = useRef();
