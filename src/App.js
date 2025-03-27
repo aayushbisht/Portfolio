@@ -61,7 +61,7 @@ function App() {
             <About />
           </section>
 		 
-          <section id="about-sect" className='mt-20'>
+          <section id="experience-sect" className='mt-20'>
 		 
             <Experience />
           </section>
