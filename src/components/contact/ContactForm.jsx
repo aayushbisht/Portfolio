@@ -29,7 +29,7 @@ const ContactForm = () => {
 
     emailjs
       .send(
-        'service_c5hk5ic',
+        'service_aczttiu',
         'template_16dnpp8',
         templateParams,
         '1DCiGzYt4VjsAR3JI'
